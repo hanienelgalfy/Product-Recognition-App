@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.salma.myapplication2.Main5Activity">
+
+    <EditText
+        android:id="@+id/I1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Please enter the name of the product"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/I2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Please enter a price"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/I3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="please enter name of the supermarket"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done" />
+
+
+    <Button
+        android:id="@+id/button_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="GET LOCATION" />
+
+    <TextView
+        android:id="@+id/text_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Location"
+        android:textSize="16dp" />
+
+
+</LinearLayout>
